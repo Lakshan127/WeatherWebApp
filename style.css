@@ -1,0 +1,124 @@
+body{
+    background-color: #3284e2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin:0;
+}
+
+#wetter-container{
+    background: rgba(255, 255 ,255, 0.3);
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0 ,0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba (255, 255, 255, 0.1);
+    text-align: center;
+}
+
+h2,label,p{
+    color: #fff;
+    margin: 8px 0;
+
+}
+ input{
+    width: clac(100% - 16px);
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+ }
+ 
+    button{
+       background: #287fe2;
+       color: #fff;
+       padding: 10px;
+       border: none;
+       border-radius: 10px;
+       cursor: pointer;
+       margin-top: 20px;
+       width: 100px;
+       font-size: 15px;
+    }
+
+    button:hover{
+        background: #093b76;
+    }
+
+    #temp-div p {
+        font-size: 60px; 
+        margin-top: -30px;
+    }
+    #wetter-info {
+        font-size: 20px;
+    }
+        
+    #wetter-icon {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 10px;
+        margin-bottom: 0;
+        display:none
+    }
+
+    #Stündliche-Vorhersage {
+        margin-top: 20px;
+        display: flex;
+        overflow-x: auto;
+        gap: 15px;
+        padding-bottom: 10px;
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    #Stündliche-Vorhersage::-webkit-scrollbar {
+        height: 8px;
+    }
+    
+    #Stündliche-Vorhersage::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+    }
+    
+    #Stündliche-Vorhersage::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+    }
+    
+    #Stündliche-Vorhersage::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.5);
+    }
+    
+    .hourly-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        padding: 5px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    .hourly-item span {
+        color: white;
+        font-size: 14px;
+    }
+    
+    .hourly-item img {
+        width: 40px;
+        height: 40px;
+        margin: 5px 0;
+    }
+
+    #Stündliche-heading{
+        color: #fff;
+        margin-top: 10px;
+
+    }
+
