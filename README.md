@@ -24,5 +24,5 @@ Eine moderne, responsive Web-App zur Anzeige von aktuellen Wetterdaten und stün
 
 1. **Klonen des Repositories**:
    ```bash
-   git clone https://github.com/dein-username/WeatherWebApp-1.git
+   git clone [https://github.com/dein-username/WeatherWebApp-1.git](https://github.com/Lakshan127/WeatherWebApp.git)
    cd WeatherWebApp-1
